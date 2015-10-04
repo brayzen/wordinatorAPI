@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get '/anagram/:word1&:word2' => 'anagram#anagram'
+  get '/anagram/{":word1":":word2"}' => 'anagram#anagram'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
